@@ -1,0 +1,82 @@
+=======================================================================
+  AMALIY MASHGʻULOT № 9
+  KOʻP AGENTLI TIZIM: KURYERLAR VA CONTRACT NET
+  Taqsimlangan tizimlar | 60610400 - Dasturiy injiniring
+=======================================================================
+
+BIRINCHI NAVBATDA OʻQING:  Amaliy_09_topshiriqlar.docx
+
+-----------------------------------------------------------------------
+ ISHGA TUSHIRISH
+-----------------------------------------------------------------------
+
+ 1. Bu papkani PyCharm'da oching:
+       File -> Open -> shu papkani tanlang -> OK
+    (Faylni emas, PAPKANI oching.)
+
+ 2. Avval namunani ishga tushiring:
+       python namuna.py
+
+ 3. topshiriqlar.py faylini oching.
+
+ 4. Yuqoridagi  TOPSHIRIQ = 1  qatorida raqamni oʻzgartiring
+    (1 dan 8 gacha).
+
+ 5. Ctrl+S bosing, soʻng yashil Run tugmasini bosing.
+
+ Talab: Python 3.8 yoki undan yangisi.
+ Kutubxona oʻrnatish KERAK EMAS. Internet ham kerak emas.
+
+-----------------------------------------------------------------------
+ PAPKADAGI FAYLLAR
+-----------------------------------------------------------------------
+
+ shahar.py           Shahar muhiti va Contract Net dvigateli.
+                     BU FAYLNI OʻZGARTIRMANG.
+
+ topshiriqlar.py     SIZ ISHLAYDIGAN FAYL.
+                     Yuqorisida TOPSHIRIQ, pastida sakkizta topshiriq.
+                     Har birida TODO yozilgan joy bor - oʻshani
+                     toʻldirasiz.
+
+ namuna.py           Toʻliq yechilgan masala. Hujjatda shu yechim
+                     batafsil keltirilgan.
+
+-----------------------------------------------------------------------
+ TOPSHIRIQLAR
+-----------------------------------------------------------------------
+
+ 1. Masofa boʻyicha taklif            taklif() ni yozish
+ 2. Navbat sigʻimi                   SIGIM = 1, 2, 3, 5
+ 3. Rad etish chegarasi              CHEGARA = 100, 40, 25, 15
+ 4. Smena oxirida rad etish          vaqt shartini qoʻshish
+ 5. Markazlashgan va taqsimlangan    ikki rejimni solishtirish
+ 6. Vickrey auktsioni                halol va yolgʻonchi agent
+ 7. Hududga biriktirish              hudud shartini qoʻshish
+ 8. Hududlarga oʻzi taqsimlanish     bosh_vaqtda() ni yozish
+
+-----------------------------------------------------------------------
+ MUAMMO CHIQSA
+-----------------------------------------------------------------------
+
+ "NotImplementedError: taklif() funksiyasini yozing"
+     TODO joyi toʻldirilmagan.
+
+ "Yetkazilgan = 0"
+     taklif() hamma holatda None qaytaryapti. Qiymat qaytarishni
+     unutgansiz.
+
+ "ModuleNotFoundError: shahar"
+     Papkani emas, faylni ochgansiz. PyCharm'da papkani oching.
+
+ "TypeError: unsupported operand type(s)"
+     None qiymatga arifmetik amal bajarilgan. Avval shartni
+     tekshiring, keyin hisoblang.
+
+ Natija har safar bir xil chiqyapti
+     Shunday boʻlishi kerak. Simulyatsiya urugʻi (URUGH) qatʼiy,
+     shuning uchun ikki yechimni halol solishtirish mumkin.
+
+ Dastur uzoq ishlayapti
+     8-topshiriq 16 kuryer bilan ikki marta ishlaydi - 30 soniyagacha
+     normal.
